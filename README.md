@@ -8,7 +8,7 @@ This repository contains the non-sense-based (without gloss) and sense-based (wi
 
 ## Prerequisite
 
-1. Tensorflow 1.14+
+1. Tensorflow 1.12+
 2. Pre-trained model of BlueBERT
 3. A clinical abbreviation expansion dataset (MSH, UMN, or ShARe/CLEF 2013 Task 2)
 
