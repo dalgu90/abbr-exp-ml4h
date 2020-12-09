@@ -1,6 +1,6 @@
 # abbr-exp-ml4h
 
-Implemenation of "Improved Clinical Abbreviation Expansion via Non-Sense-Based Approaches", ML4H (Machine Learning for Health) workshop at NeurIPS 2020.
+Implemenation of "Improved Clinical Abbreviation Expansion via Non-Sense-Based Approaches" ([paper](http://proceedings.mlr.press/v136/kim20a.html)), ML4H (Machine Learning for Health) workshop at NeurIPS 2020.
 
 <img src="https://user-images.githubusercontent.com/13655756/101674174-25116f80-3a26-11eb-8161-8f542c573017.png" width="800">
 
