@@ -2,7 +2,7 @@
 
 Implemenation of "Improved Clinical Abbreviation Expansion via Non-Sense-Based Approaches", ML4H (Machine Learning for Health) workshop at NeurIPS 2020.
 
-![Figure 1](https://user-images.githubusercontent.com/13655756/101674174-25116f80-3a26-11eb-8161-8f542c573017.png)
+<img src="https://user-images.githubusercontent.com/13655756/101674174-25116f80-3a26-11eb-8161-8f542c573017.png" width="800">
 
 This repository contains the non-sense-based (without gloss) and sense-based (with gloss) approaches to clinical abbreviation expansion based on BERT (The code of the one with permutation language model is coming soon in another repository). The code is based on [BlueBERT](https://github.com/ncbi-nlp/bluebert) (previously named as NCBI-BERT), which is a biomedical version of BERT.
 
