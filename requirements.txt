@@ -1,2 +1,6 @@
 # tensorflow>=1.12.1   # CPU Version of TensorFlow.
 tensorflow-gpu>=1.12.1   # GPU Version of TensorFlow.
+requests
+joblib
+sqlalchemy
+gensim
