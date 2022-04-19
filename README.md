@@ -22,11 +22,15 @@ $ pip install -r requirement.txt
 $ wget https://ftp.ncbi.nlm.nih.gov/pub/lu/Suppl/NCBI-BERT/NCBI_BERT_pubmed_mimic_uncased_L-12_H-768_A-12.zip
 $ unzip NCBI_BERT_pubmed_mimic_uncased_L-12_H-768_A-12.zip -d bert_models
 
-# Download and prepare dataset (UMN / MSH). For the ShARe/CLEF dataset, please run scripts/preprocess_sc13t2.ipynb.
-$ ./scripts/download_umn.sh
+# Download and prepare dataset
+$ ./scripts/download_umn.sh   # UMN
+$ ./scripts/download_msh.sh   # MSH (downloading dataset required)
+# Run the notebook scripts/preprocess_sc13t2.ipynb for the ShARe/CLEF dataset (manual downloading and installation required)
 
-# Fine-tune and evaulate the model (Masked LM method on UMN, one of 10-fold CV). Similarly for MSH and ShARe/CLEF.
-$ ./scripts/umn_masklm2.sh
+# Fine-tune and evaulate the model.
+$ ./scripts/umn_masklm2.sh     # Masked LM on UMN, one of 10-fold CV
+$ ./scripts/msh_masklm2_new.sh # Masked LM on MSH, one of 10-fold CV
+$ ./scripts/sc13t2_masklm2.sh  # Masked LM on ShARe/CLEF. Please run scripts/evaluate_sc13t2_lrabr.ipynb to compute the accuracy on test unseen examples.
 ```
 
 ## Acknowledgement
